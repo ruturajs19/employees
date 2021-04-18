@@ -1,0 +1,30 @@
+.login-container {
+  padding: 50px;
+  align-items: center;
+}
+.password-container,
+.username-container {
+  margin-bottom: 1rem;
+}
+
+.username-input,
+.password-input {
+  height: 30px;
+  width: 500px;
+}
+
+.login-button {
+  background-color: cornflowerblue;
+  color: white;
+  width: 508px;
+  height: 30px;
+  border-radius: 2px;
+  margin-top: 1rem;
+}
+.login-button:disabled {
+  background-color: darkgray;
+}
+.error-alert{
+  color: red;
+  font-style: italic;
+}
